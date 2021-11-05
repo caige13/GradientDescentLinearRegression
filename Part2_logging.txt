@@ -1,0 +1,344 @@
+
+***Program Start: 2021-09-18 12:45:30.518056***
+Learning rate method: invscaling Max Iteration: 100000 init_learning_rate: 0.01
+Training MSE:  2.0400166850975845
+Testing MSE:  1.7114019532863365
+r2_test = 0.8504854479304652
+r2_train = 0.7992893011281528
+Test RMSE: 1.308205623472983
+Training RMSE: 1.4282915266490888
+
+***Program Start: 2021-09-18 12:45:33.718737***
+Learning rate method: invscaling Max Iteration: 100000 init_learning_rate: 0.01
+Training MSE:  1.7168048604708503
+Testing MSE:  1.6684428281914419
+r2_test = 0.854238519693372
+r2_train = 0.8310890759429227
+Test RMSE: 1.2916821699595615
+Training RMSE: 1.3102690030947273
+
+***Program Start: 2021-09-18 12:45:36.052072***
+Learning rate method: invscaling Max Iteration: 100000 init_learning_rate: 0.01
+Training MSE:  1.5913465364562924
+Testing MSE:  1.4650126085325335
+r2_test = 0.872010953639297
+r2_train = 0.8434325180707247
+Test RMSE: 1.2103770522165949
+Training RMSE: 1.2614858447308446
+
+***Program Start: 2021-09-18 12:45:38.682257***
+Learning rate method: invscaling Max Iteration: 100000 init_learning_rate: 0.01
+Training MSE:  1.632901889676247
+Testing MSE:  1.416305929514287
+r2_test = 0.8762661534666806
+r2_train = 0.8393440201444224
+Test RMSE: 1.1900865218606111
+Training RMSE: 1.277850495823454
+CONCLUSION: Pretty inconsistent results. However not the worst.
+
+***Program Start: 2021-09-18 12:47:26.312883***
+Learning rate method: invscaling Max Iteration: 100000 init_learning_rate: 0.001
+Training MSE:  1.6461267940379827
+Testing MSE:  1.4785449303850444
+r2_test = 0.8708287187842102
+r2_train = 0.838042864219401
+Test RMSE: 1.2159543290703991
+Training RMSE: 1.2830147286909774
+CONCLUSION: Changed learning rate from .01 to .001. Bad Training Results.
+
+***Program Start: 2021-09-18 12:47:28.632596***
+Learning rate method: invscaling Max Iteration: 100000 init_learning_rate: 0.001
+Training MSE:  1.6043831448516273
+Testing MSE:  1.5001359759870982
+r2_test = 0.8689424433211578
+r2_train = 0.8421498879819316
+Test RMSE: 1.2248003820978741
+Training RMSE: 1.2666424692278508
+
+***Program Start: 2021-09-18 12:47:30.695843***
+Learning rate method: invscaling Max Iteration: 100000 init_learning_rate: 0.001
+Training MSE:  1.5944353374148632
+Testing MSE:  1.4522865391375728
+r2_test = 0.8731227512281333
+r2_train = 0.8431286208508639
+Test RMSE: 1.2051085175773892
+Training RMSE: 1.2627095221842841
+
+***Program Start: 2021-09-18 12:47:32.818338***
+Learning rate method: invscaling Max Iteration: 100000 init_learning_rate: 0.001
+Training MSE:  1.5959063591563774
+Testing MSE:  1.475700101448812
+r2_test = 0.8710772538073813
+r2_train = 0.8429838917396014
+Test RMSE: 1.2147839731609946
+Training RMSE: 1.26329187409576
+
+***Program Start: 2021-09-18 12:47:35.017457***
+Learning rate method: invscaling Max Iteration: 100000 init_learning_rate: 0.001
+Training MSE:  1.5997897797366694
+Testing MSE:  1.5093409123858088
+r2_test = 0.8681382652378975
+r2_train = 0.8426018144436765
+Test RMSE: 1.2285523645273768
+Training RMSE: 1.2648279644823914
+
+***Program Start: 2021-09-18 12:47:37.126017***
+Learning rate method: invscaling Max Iteration: 100000 init_learning_rate: 0.001
+Training MSE:  1.593325742574848
+Testing MSE:  1.4819590344176718
+r2_test = 0.8705304497339869
+r2_train = 0.8432377903284624
+Test RMSE: 1.2173573979804253
+Training RMSE: 1.262270075132437
+CONCLUSION: Bit more consistency but still not as good as part 1.
+
+***Program Start: 2021-09-18 12:49:24.760818***
+Learning rate method: invscaling Max Iteration: 100000 init_learning_rate: 0.0001
+Training MSE:  1.7215767112961915
+Testing MSE:  1.692360016651938
+r2_test = 0.8521490235860624
+r2_train = 0.8306195888445755
+Test RMSE: 1.3009073820422181
+Training RMSE: 1.3120886827102014
+CONCLUSION: Changed learning rate to .0001 Bad Results
+
+***Program Start: 2021-09-18 12:49:26.263127***
+Learning rate method: invscaling Max Iteration: 100000 init_learning_rate: 0.0001
+Training MSE:  1.7286277353831265
+Testing MSE:  1.705702843573476
+r2_test = 0.8509833437253586
+r2_train = 0.8299258611988218
+Test RMSE: 1.306025590703902
+Training RMSE: 1.314772883574622
+
+***Program Start: 2021-09-18 12:49:28.781798***
+Learning rate method: invscaling Max Iteration: 100000 init_learning_rate: 0.0001
+Training MSE:  1.7424878685493241
+Testing MSE:  1.7316009016109066
+r2_test = 0.8487207913544782
+r2_train = 0.8285622071490456
+Test RMSE: 1.3159030745502902
+Training RMSE: 1.3200332831218022
+
+***Program Start: 2021-09-18 12:49:31.094360***
+Learning rate method: invscaling Max Iteration: 100000 init_learning_rate: 0.0001
+Training MSE:  1.7169209935304859
+Testing MSE:  1.689387813608279
+r2_test = 0.8524086864933526
+r2_train = 0.831077649983649
+Test RMSE: 1.2997645223686785
+Training RMSE: 1.310313318840378
+
+***Program Start: 2021-09-18 12:49:33.959455***
+Learning rate method: invscaling Max Iteration: 100000 init_learning_rate: 0.0001
+Training MSE:  1.7218350278664618
+Testing MSE:  1.6946426526458258
+r2_test = 0.8519496038661605
+r2_train = 0.8305941739057037
+Test RMSE: 1.3017844109705055
+Training RMSE: 1.3121871161791148
+
+***Program Start: 2021-09-18 12:49:36.221019***
+Learning rate method: invscaling Max Iteration: 100000 init_learning_rate: 0.0001
+Training MSE:  1.7325009638266116
+Testing MSE:  1.7091427265423071
+r2_test = 0.8506828225296985
+r2_train = 0.829544786674549
+Test RMSE: 1.3073418552705742
+Training RMSE: 1.3162450242362216
+
+***Program Start: 2021-09-18 12:49:39.080276***
+Learning rate method: invscaling Max Iteration: 100000 init_learning_rate: 0.0001
+Training MSE:  1.7103193733620285
+Testing MSE:  1.6781082734673392
+r2_test = 0.8533941098116352
+r2_train = 0.8317271622191993
+Test RMSE: 1.2954181847833306
+Training RMSE: 1.3077917928179656
+CONCLUSION: The r^2 value is a bit better for the testing but the MSE is rather high and not worth the trade
+in my opinion.
+
+***Program Start: 2021-09-18 12:51:27.330390***
+Learning rate method: invscaling Max Iteration: 1000000 init_learning_rate: 0.0001
+Training MSE:  1.7340589855020918
+Testing MSE:  1.71583037608664
+r2_test = 0.850098564153635
+r2_train = 0.8293914979188111
+Test RMSE: 1.3098970860669321
+Training RMSE: 1.3168367345658656
+CONCLUSION: Changed the max iter to 1 million.
+
+***Program Start: 2021-09-18 12:51:29.561369***
+Learning rate method: invscaling Max Iteration: 1000000 init_learning_rate: 0.0001
+Training MSE:  1.7096065667296902
+Testing MSE:  1.6763052222862371
+r2_test = 0.853551631187127
+r2_train = 0.8317972929776299
+Test RMSE: 1.294722063721105
+Training RMSE: 1.307519241437651
+
+***Program Start: 2021-09-18 12:51:31.823647***
+Learning rate method: invscaling Max Iteration: 1000000 init_learning_rate: 0.0001
+Training MSE:  1.733394524026615
+Testing MSE:  1.71066233486668
+r2_test = 0.8505500637949645
+r2_train = 0.8294568721523116
+Test RMSE: 1.307922908609938
+Training RMSE: 1.3165844158376685
+CONCLUSION: Bad Results still.
+
+***Program Start: 2021-09-18 12:52:26.819997***
+Learning rate method: invscaling Max Iteration: 1000000 init_learning_rate: 0.001
+Training MSE:  1.592372330396456
+Testing MSE:  1.4862609379854628
+r2_test = 0.8701546191561675
+r2_train = 0.8433315934948952
+Test RMSE: 1.2191230200375442
+Training RMSE: 1.261892360859854
+CONCLUSION: Kept 1 mil iters and change learning rate to .001
+
+***Program Start: 2021-09-18 12:52:29.038101***
+Learning rate method: invscaling Max Iteration: 1000000 init_learning_rate: 0.001
+Training MSE:  1.6655173003840105
+Testing MSE:  1.4792634551060633
+r2_test = 0.8707659457450607
+r2_train = 0.8361350944895647
+Test RMSE: 1.2162497503005143
+Training RMSE: 1.290549224316535
+CONCLUSION: Not bad results better than before but 1 million is too much.
+
+***Program Start: 2021-09-18 12:53:43.804999***
+Learning rate method: constant Max Iteration: 100000 init_learning_rate: 0.001
+Training MSE:  1.8803222271340445
+Testing MSE:  1.5725517748354947
+r2_test = 0.8626159250495241
+r2_train = 0.8150011266725059
+Test RMSE: 1.2540142642073473
+Training RMSE: 1.3712484191910832
+CONCLUSION: Changed the method to constant learning rate. Not good results.
+
+***Program Start: 2021-09-18 12:53:46.044533***
+Learning rate method: constant Max Iteration: 100000 init_learning_rate: 0.001
+Training MSE:  1.886342629981403
+Testing MSE:  1.5806397198336066
+r2_test = 0.861909331562685
+r2_train = 0.8144087985450889
+Test RMSE: 1.2572349501320772
+Training RMSE: 1.3734418917381992
+
+***Program Start: 2021-09-18 12:53:48.013003***
+Learning rate method: constant Max Iteration: 100000 init_learning_rate: 0.001
+Training MSE:  3.3226562600207314
+Testing MSE:  2.8763025457841187
+r2_test = 0.7487153231749157
+r2_train = 0.6730945070541037
+Test RMSE: 1.6959665520829468
+Training RMSE: 1.8228154761304642
+
+***Program Start: 2021-09-18 12:53:50.294941***
+Learning rate method: constant Max Iteration: 100000 init_learning_rate: 0.001
+Training MSE:  1.5898337244712624
+Testing MSE:  1.4233631538073772
+r2_test = 0.875649607641774
+r2_train = 0.8435813587900165
+Test RMSE: 1.1930478422122799
+Training RMSE: 1.2608860870321563
+
+***Program Start: 2021-09-18 12:53:53.070076***
+Learning rate method: constant Max Iteration: 100000 init_learning_rate: 0.001
+Training MSE:  1.873066492467226
+Testing MSE:  1.582346190027244
+r2_test = 0.8617602478678046
+r2_train = 0.8157149951356633
+Test RMSE: 1.2579134270796397
+Training RMSE: 1.3686001945298802
+
+***Program Start: 2021-09-18 12:53:55.278866***
+Learning rate method: constant Max Iteration: 100000 init_learning_rate: 0.001
+Training MSE:  1.6000862853160922
+Testing MSE:  1.4963695926870402
+r2_test = 0.8692714888215143
+r2_train = 0.8425726422106746
+Test RMSE: 1.223261865949822
+Training RMSE: 1.264945170873462
+
+***Program Start: 2021-09-18 12:53:58.342847***
+Learning rate method: constant Max Iteration: 100000 init_learning_rate: 0.001
+Training MSE:  1.8933489066514768
+Testing MSE:  1.5809058133538316
+r2_test = 0.8618860846256293
+r2_train = 0.8137194734541655
+Test RMSE: 1.25734077057647
+Training RMSE: 1.3759901549980207
+CONCLUSION: Very high inconsistency achieving the worst results and pretty good results at the same time.
+
+***Program Start: 2021-09-18 12:56:22.037445***
+Learning rate method: adaptive Max Iteration: 100000 init_learning_rate: 0.001
+Training MSE:  1.5858746270595236
+Testing MSE:  1.442457455044515
+r2_test = 0.8739814572162884
+r2_train = 0.8439708816866754
+Test RMSE: 1.2010235031191168
+Training RMSE: 1.2593151420750581
+CONCLUSION: Changed the method to adaptive
+
+***Program Start: 2021-09-18 12:56:24.763927***
+Learning rate method: adaptive Max Iteration: 100000 init_learning_rate: 0.001
+Training MSE:  1.5857152738991775
+Testing MSE:  1.444458636892299
+r2_test = 0.8738066263958569
+r2_train = 0.8439865599330418
+Test RMSE: 1.201856329555367
+Training RMSE: 1.2592518707149802
+
+***Program Start: 2021-09-18 12:56:27.630390***
+Learning rate method: adaptive Max Iteration: 100000 init_learning_rate: 0.001
+Training MSE:  1.585717183450449
+Testing MSE:  1.442836904417597
+r2_test = 0.8739483070828902
+r2_train = 0.8439863720584165
+Test RMSE: 1.2011814619022378
+Training RMSE: 1.259252628923382
+
+***Program Start: 2021-09-18 12:56:30.582480***
+Learning rate method: adaptive Max Iteration: 100000 init_learning_rate: 0.001
+Training MSE:  1.5858396551374805
+Testing MSE:  1.4458060940752564
+r2_test = 0.8736889074364063
+r2_train = 0.8439743224619227
+Test RMSE: 1.2024167722030727
+Training RMSE: 1.2593012567044792
+
+***Program Start: 2021-09-18 12:56:34.138235***
+Learning rate method: adaptive Max Iteration: 100000 init_learning_rate: 0.001
+Training MSE:  1.5858639356641215
+Testing MSE:  1.4422877510216923
+r2_test = 0.8739962832020295
+r2_train = 0.8439719335787794
+Test RMSE: 1.2009528512900465
+Training RMSE: 1.2593108971434026
+
+***Program Start: 2021-09-18 12:56:36.868828***
+Learning rate method: adaptive Max Iteration: 100000 init_learning_rate: 0.001
+Training MSE:  1.5858384467544575
+Testing MSE:  1.4418014564166715
+r2_test = 0.874038767739285
+r2_train = 0.8439744413508529
+Test RMSE: 1.2007503722325767
+Training RMSE: 1.2593007769212474
+CONCLUSION: Very consistent and good results. Thus far probably the best for part 2.
+
+***Program Start: 2021-09-18 13:11:05.622554***
+Learning rate method: adaptive Max Iteration: 100000 init_learning_rate: 0.001
+Coeff Values: [ 1.59125139e-01  8.73353035e-01  6.86117916e-02 -1.13855820e-01
+ -3.34327767e-02  3.20990390e-02 -3.96098797e-02  6.78976450e-02
+ -4.22819298e-02  3.00082690e-04]
+Training MSE:  1.5861554409718486
+Testing MSE:  1.4440457095268917
+r2_test = 0.8738427012933745
+r2_train = 0.8439432533064728
+Test RMSE: 1.201684529952388
+Training RMSE: 1.2594266318336487
+
+Q: Did the package find the best solution?
+A: I am not 100% convienced its the best because I can run with a different method and it could be better, but adaptive is giving really go results in all the metrics compared to my part 1 where the R^2 value is low. Adaptive is a lot more consistent also compared to all the other methods which varied widely. The coefficients from the package seem to be relatively similar to my part 1 though. However, the main reason im not convienved its the best is just because I kept getting many different types of results when running it, so its possible there might be a better result out there if I ran it 1 million times, but I think that result would be a small performance increase compared to what I have now. The MSE values from the package and my part 1 are pretty similar, but my part 1 is a tad bit better. However, the package gave better R^2 value for the training data.

@@ -1,0 +1,709 @@
+
+
+
+***Start Program: 2021-09-12 17:33:17.258675
+train size: 0.8	test_size: 0.19999999999999996***
+Columns used: ['G1' 'G2' 'studytime' 'failures' 'Medu' 'Fedu']
+		Shapes
+X_train: (316, 6)
+Y_train: (316,)
+X_test: (79, 6)
+Y_test: (79,)
+
+Beginning of Gradient Descent Algorithm.
+alpha(learning rate): 0.001   MaxIter: 10  Cut off amount: 1e-06
+Final Coeff: [0.03388821 0.44453376 0.48700651 0.06924411 0.00177351 0.09851744
+ 0.0844185 ]
+Final Cost(MSE) Value: 4.682615179298703
+Test Data MSE: 6.996476037967319
+CONCLUSION: Good, but want to see how it acts with higher learning rate.
+
+
+***Start Program: 2021-09-12 17:34:42.734090***
+train size: 0.8	test_size: 0.19999999999999996
+Columns used: ['G1' 'G2' 'studytime' 'failures' 'Medu' 'Fedu']
+		Shapes
+X_train: (316, 6)
+Y_train: (316,)
+X_test: (79, 6)
+Y_test: (79,)
+
+Beginning of Gradient Descent Algorithm.
+alpha(learning rate): 0.003   MaxIter: 10  Cut off amount: 1e-06
+Final Coeff: [ 0.0238443   0.40456229  0.53078356  0.04538549 -0.01453216  0.07695479
+  0.05530179]
+Final Cost(MSE) Value: 4.424941183763703
+Test Data MSE: 6.763780798563502
+CONCLUSION: Good, but want to see how it acts with higher learning rate.
+
+***Start Program: 2021-09-12 17:34:52.824299***
+train size: 0.8	test_size: 0.19999999999999996
+Columns used: ['G1' 'G2' 'studytime' 'failures' 'Medu' 'Fedu']
+		Shapes
+X_train: (316, 6)
+Y_train: (316,)
+X_test: (79, 6)
+Y_test: (79,)
+
+Beginning of Gradient Descent Algorithm.
+alpha(learning rate): 0.004   MaxIter: 10  Cut off amount: 1e-06
+Final Coeff: [-0.2246593  -2.51016144 -2.32991144 -0.47497579 -0.08634641 -0.61930963
+ -0.58125865]
+Final Cost(MSE) Value: 4953.685806526975
+Test Data MSE: 4921.733961575952
+CONCLUSION: Bad Learning rate.
+
+
+***Start Program: 2021-09-12 17:34:58.588015***
+train size: 0.8	test_size: 0.19999999999999996
+Columns used: ['G1' 'G2' 'studytime' 'failures' 'Medu' 'Fedu']
+		Shapes
+X_train: (316, 6)
+Y_train: (316,)
+X_test: (79, 6)
+Y_test: (79,)
+
+Beginning of Gradient Descent Algorithm.
+alpha(learning rate): 0.0035   MaxIter: 10  Cut off amount: 1e-06
+Final Coeff: [ 0.00396597  0.18734986  0.33438983  0.00318576 -0.02305265  0.02276077
+  0.00381627]
+Final Cost(MSE) Value: 31.59122786075473
+Test Data MSE: 30.768825812686707
+CONCLUSION: Way better results. .0035 bit of a sweet spot.
+
+
+***Start Program: 2021-09-12 17:35:48.120433***
+train size: 0.8	test_size: 0.19999999999999996
+Columns used: ['G1' 'G2' 'studytime' 'failures' 'Medu' 'Fedu']
+		Shapes
+X_train: (316, 6)
+Y_train: (316,)
+X_test: (79, 6)
+Y_test: (79,)
+
+Beginning of Gradient Descent Algorithm.
+alpha(learning rate): 0.0005   MaxIter: 10  Cut off amount: 1e-06
+Final Coeff: [0.03484273 0.43510188 0.45549498 0.07199624 0.00556203 0.09964314
+ 0.08792369]
+Final Cost(MSE) Value: 4.963321282278874
+Test Data MSE: 6.948548811579543
+CONCLUSION: Better Results.
+
+
+***Start Program: 2021-09-12 17:38:43.805511***
+train size: 0.8	test_size: 0.19999999999999996
+Columns used: ['G1' 'G2' 'studytime' 'failures' 'Medu' 'Fedu']
+		Shapes
+X_train: (316, 6)
+Y_train: (316,)
+X_test: (79, 6)
+Y_test: (79,)
+
+Beginning of Gradient Descent Algorithm.
+alpha(learning rate): 0.003   MaxIter: 1000  Cut off amount: 1e-06
+Final Coeff: [-0.2241343   0.10151966  0.97850271 -0.27211391 -0.36742962  0.12481171
+ -0.20345055]
+Final Cost(MSE) Value: 3.121151940701129
+Test Data MSE: 6.005326593438355
+CONCLUSION: Back to .0035 Not enough iterations
+
+
+***Start Program: 2021-09-12 17:40:44.803867***
+train size: 0.8	test_size: 0.19999999999999996
+Columns used: ['G1' 'G2' 'studytime' 'failures' 'Medu' 'Fedu']
+		Shapes
+X_train: (316, 6)
+Y_train: (316,)
+X_test: (79, 6)
+Y_test: (79,)
+
+Beginning of Gradient Descent Algorithm.
+alpha(learning rate): 0.003   MaxIter: 10000  Cut off amount: 1e-06
+Final Coeff: [-0.69975519  0.1191582   0.97898054 -0.22094792 -0.3010446   0.16103075
+ -0.19010385]
+Final Cost(MSE) Value: 3.1096971809470717
+Test Data MSE: 5.916664161204491
+CONCLUSION: More iterations.
+
+
+
+
+***Start Program: 2021-09-12 17:44:36.805787***
+train size: 0.8	test_size: 0.19999999999999996
+Columns used: ['G1' 'G2' 'studytime' 'failures' 'Medu' 'Fedu']
+		Shapes
+X_train: (316, 6)
+Y_train: (316,)
+X_test: (79, 6)
+Y_test: (79,)
+
+Beginning of Gradient Descent Algorithm.
+alpha(learning rate): 0.003   MaxIter: 100000  Cut off amount: 1e-06
+Very low change in Coeff thus stopping early.
+Final Coeff: [-0.77413634  0.12175689  0.97922511 -0.2126779  -0.28970016  0.1645574
+ -0.1860226 ]
+Final Cost(MSE) Value: 3.109463928472558
+Test Data MSE: 5.904402677176083
+CONCLUSION: More iterations cannot help here
+
+
+***Start Program: 2021-09-12 17:47:23.438774***
+train size: 0.8	test_size: 0.19999999999999996
+Columns used: ['G1' 'G2']
+		Shapes
+X_train: (316, 2)
+Y_train: (316,)
+X_test: (79, 2)
+Y_test: (79,)
+
+Beginning of Gradient Descent Algorithm.
+alpha(learning rate): 0.003   MaxIter: 100000  Cut off amount: 1e-06
+Very low change in Coeff thus stopping early.
+Final Coeff: [-1.52883832  0.12342746  0.99639642]
+Final Cost(MSE) Value: 3.193158259660794
+Test Data MSE: 5.899122325408761
+CONCLUSION: This yield very slight better results than with more features.
+
+
+***Start Program: 2021-09-12 17:50:01.576871***
+train size: 0.8	test_size: 0.19999999999999996
+Columns used: ['G2']
+		Shapes
+X_train: (316, 1)
+Y_train: (316,)
+X_test: (79, 1)
+Y_test: (79,)
+
+Beginning of Gradient Descent Algorithm.
+alpha(learning rate): 0.003   MaxIter: 100000  Cut off amount: 1e-06
+Very low change in Coeff thus stopping early.
+Final Coeff: [-1.14906339  1.08683545]
+Final Cost(MSE) Value: 3.2426633994624336
+Test Data MSE: 6.047737178226377
+CONCLUSION: Bad 
+
+
+***Start Program: 2021-09-12 17:51:14.440933***
+train size: 0.8	test_size: 0.19999999999999996
+Columns used: ['G1' 'G2' 'studytime' 'Medu' 'Fedu']
+		Shapes
+X_train: (316, 5)
+Y_train: (316,)
+X_test: (79, 5)
+Y_test: (79,)
+
+Beginning of Gradient Descent Algorithm.
+alpha(learning rate): 0.003   MaxIter: 100000  Cut off amount: 1e-06
+Very low change in Coeff thus stopping early.
+Final Coeff: [-1.31029591  0.13630034  0.98745255 -0.17847626  0.17881386 -0.15527176]
+Final Cost(MSE) Value: 3.1494926251050743
+Test Data MSE: 5.890598390843624
+CONCLUSION: Better but very slight (Without failures)
+
+
+***Start Program: 2021-09-12 17:52:35.802228***
+train size: 0.9	test_size: 0.09999999999999998
+Columns used: ['G1' 'G2' 'studytime' 'Medu' 'Fedu']
+		Shapes
+X_train: (355, 5)
+Y_train: (355,)
+X_test: (40, 5)
+Y_test: (40,)
+
+Beginning of Gradient Descent Algorithm.
+alpha(learning rate): 0.003   MaxIter: 100000  Cut off amount: 1e-06
+Very low change in Coeff thus stopping early.
+Final Coeff: [-1.22992709  0.15547672  0.98185533 -0.24242006  0.1396662  -0.15963923]
+Final Cost(MSE) Value: 3.3770409876624328
+Test Data MSE: 6.537495488053695
+CONCLUSION: Changed the training size. Bad results
+
+
+***Start Program: 2021-09-12 17:54:33.076127***
+train size: 0.9	test_size: 0.1
+Columns used: ['G1' 'G2' 'studytime' 'failures' 'Medu' 'Fedu']
+		Shapes
+X_train: (355, 6)
+Y_train: (355,)
+X_test: (40, 6)
+Y_test: (40,)
+
+Beginning of Gradient Descent Algorithm.
+alpha(learning rate): 0.003   MaxIter: 100000  Cut off amount: 1e-06
+Very low change in Coeff thus stopping early.
+Final Coeff: [-0.7904613   0.14664323  0.97289456 -0.27065558 -0.25415061  0.12682672
+ -0.18673927]
+Final Cost(MSE) Value: 3.3478506455533816
+Test Data MSE: 6.483075674477587
+CONCLUSION: Added failures with the .9/.1 train/test Not good
+
+
+***Start Program: 2021-09-12 17:57:01.781675***
+train size: 0.8	test_size: 0.2
+Columns used: ['G1' 'G2' 'studytime' 'failures' 'Fedu']
+		Shapes
+X_train: (316, 5)
+Y_train: (316,)
+X_test: (79, 5)
+Y_test: (79,)
+
+Beginning of Gradient Descent Algorithm.
+alpha(learning rate): 0.003   MaxIter: 100000  Cut off amount: 1e-06
+Very low change in Coeff thus stopping early.
+Final Coeff: [-0.62535074  0.11863952  0.98657602 -0.20527254 -0.30159838 -0.08772212]
+Final Cost(MSE) Value: 3.12857396413263
+Test Data MSE: 5.905910434164114
+CONCLUSION: Deleted Medu and changed test size back to .8/.2 Not the best
+
+
+***Start Program: 2021-09-12 17:58:37.993569***
+train size: 0.8	test_size: 0.2
+Columns used: ['G1' 'G2' 'studytime' 'failures']
+		Shapes
+X_train: (316, 4)
+Y_train: (316,)
+X_test: (79, 4)
+Y_test: (79,)
+
+Beginning of Gradient Descent Algorithm.
+alpha(learning rate): 0.003   MaxIter: 100000  Cut off amount: 1e-06
+Very low change in Coeff thus stopping early.
+Final Coeff: [-0.84318204  0.11463154  0.98779586 -0.1952408  -0.27365459]
+Final Cost(MSE) Value: 3.137166008940819
+Test Data MSE: 5.87991589932398
+CONCLUSION: Fedu and Medu are not in and best results are found thus far.
+
+
+***Start Program: 2021-09-12 17:59:40.948971***
+train size: 0.8	test_size: 0.2
+Columns used: ['G1' 'G2' 'studytime']
+		Shapes
+X_train: (316, 3)
+Y_train: (316,)
+X_test: (79, 3)
+Y_test: (79,)
+
+Beginning of Gradient Descent Algorithm.
+alpha(learning rate): 0.003   MaxIter: 100000  Cut off amount: 1e-06
+Very low change in Coeff thus stopping early.
+Final Coeff: [-1.26507136  0.13055283  0.9960389  -0.16516717]
+Final Cost(MSE) Value: 3.174660720387524
+Test Data MSE: 5.876640853388697
+CONCLUSION: deleted failures and got slightly better results
+
+
+***Start Program: 2021-09-12 18:02:41.508940***
+train size: 0.8	test_size: 0.2
+Columns used: ['G1' 'G2' 'studytime']
+		Shapes
+X_train: (519, 3)
+Y_train: (519,)
+X_test: (130, 3)
+Y_test: (130,)
+
+Beginning of Gradient Descent Algorithm.
+alpha(learning rate): 0.003   MaxIter: 100000  Cut off amount: 1e-06
+Very low change in Coeff thus stopping early.
+Final Coeff: [-0.18667879  0.16190726  0.87526881  0.0790737 ]
+Final Cost(MSE) Value: 1.6019661093735478
+Test Data MSE: 1.5075721111366127
+CONCLUSION: Swapped from using Math class data set that has less data to a portuguese class with more data and got way better results.
+
+
+***Start Program: 2021-09-12 18:05:34.062451***
+train size: 0.8	test_size: 0.2
+Columns used: ['G1' 'G2' 'studytime' 'failures' 'Medu' 'Fedu']
+		Shapes
+X_train: (519, 6)
+Y_train: (519,)
+X_test: (130, 6)
+Y_test: (130,)
+
+Beginning of Gradient Descent Algorithm.
+alpha(learning rate): 0.003   MaxIter: 100000  Cut off amount: 1e-06
+Very low change in Coeff thus stopping early.
+Final Coeff: [ 0.00660054  0.15811414  0.87055519  0.07810361 -0.13132504 -0.05005706
+  0.02665289]
+Final Cost(MSE) Value: 1.5952639816356609
+Test Data MSE: 1.473876312735651
+CONCLUSION: Added back more columns. Got better results.
+
+
+***Start Program: 2021-09-12 18:06:27.930156***
+train size: 0.8	test_size: 0.2
+Columns used: ['G1' 'G2' 'studytime' 'failures' 'Medu' 'Fedu']
+		Shapes
+X_train: (519, 6)
+Y_train: (519,)
+X_test: (130, 6)
+Y_test: (130,)
+
+Beginning of Gradient Descent Algorithm.
+alpha(learning rate): 0.001   MaxIter: 100000  Cut off amount: 1e-06
+Very low change in Coeff thus stopping early.
+Final Coeff: [ 0.00689943  0.15809897  0.8705725   0.07790287 -0.13055126 -0.04987224
+  0.02642071]
+Final Cost(MSE) Value: 1.595264580464628
+Test Data MSE: 1.4740977396360893
+CONCLUSION: Change learning rate. Not worth it.
+
+
+***Start Program: 2021-09-12 18:07:49.016987***
+train size: 0.8	test_size: 0.2
+Columns used: ['G1' 'G2' 'studytime' 'failures' 'Medu' 'Fedu' 'health']
+		Shapes
+X_train: (519, 7)
+Y_train: (519,)
+X_test: (130, 7)
+Y_test: (130,)
+
+Beginning of Gradient Descent Algorithm.
+alpha(learning rate): 0.003   MaxIter: 100000  Cut off amount: 1e-06
+Very low change in Coeff thus stopping early.
+Final Coeff: [ 0.17235866  0.15895874  0.86888997  0.07638087 -0.12900432 -0.05178101
+  0.03209193 -0.04586877]
+Final Cost(MSE) Value: 1.5909040559956162
+Test Data MSE: 1.4589499101799375
+CONCLUSION: Added health and got better results.
+
+
+***Start Program: 2021-09-12 18:09:23.684509***
+train size: 0.8	test_size: 0.2
+Columns used: ['G1' 'G2' 'studytime' 'Medu' 'Fedu' 'health']
+		Shapes
+X_train: (519, 6)
+Y_train: (519,)
+X_test: (130, 6)
+Y_test: (130,)
+
+Beginning of Gradient Descent Algorithm.
+alpha(learning rate): 0.003   MaxIter: 100000  Cut off amount: 1e-06
+Very low change in Coeff thus stopping early.
+Final Coeff: [ 0.00651156  0.16387569  0.87482847  0.07951734 -0.05024388  0.03517461
+ -0.04710824]
+Final Cost(MSE) Value: 1.595793331547945
+Test Data MSE: 1.4921249848422167
+CONCLUSION: Removed failures column and got worse results
+
+
+***Start Program: 2021-09-12 18:11:58.690616***
+train size: 0.8	test_size: 0.2
+Columns used: ['G1' 'G2' 'studytime' 'failures' 'Medu' 'Fedu' 'health' 'absences']
+		Shapes
+X_train: (519, 8)
+Y_train: (519,)
+X_test: (130, 8)
+Y_test: (130,)
+
+Beginning of Gradient Descent Algorithm.
+alpha(learning rate): 0.003   MaxIter: 100000  Cut off amount: 1e-06
+Very low change in Coeff thus stopping early.
+Final Coeff: [-0.01007572  0.16622445  0.86655085  0.08971874 -0.13989125 -0.04085051
+  0.01223753 -0.04455545  0.03379716]
+Final Cost(MSE) Value: 1.5718991692391098
+Test Data MSE: 1.5002104736956132
+CONCLUSION: Added absenses and got worse results.
+
+
+***Start Program: 2021-09-12 18:47:30.507292***
+train size: 0.8	test_size: 0.2
+Columns used: ['G1' 'G2' 'studytime' 'failures' 'Medu' 'Fedu' 'health' 'traveltime']
+		Shapes
+X_train: (519, 8)
+Y_train: (519,)
+X_test: (130, 8)
+Y_test: (130,)
+
+Beginning of Gradient Descent Algorithm.
+alpha(learning rate): 0.003   MaxIter: 100000  Cut off amount: 1e-06
+Very low change in Coeff thus stopping early.
+Final Coeff: [ 0.00689208  0.15957379  0.86897564  0.0780325  -0.1359815  -0.04064508
+  0.0347279  -0.04526619  0.07756004]
+Final Cost(MSE) Value: 1.5878963722507995
+Test Data MSE: 1.4561668173634683
+CONCLUSION: Added Travel time, Best result for test data MSE thus far.
+
+
+***Start Program: 2021-09-12 18:54:22.993930***
+train size: 0.8	test_size: 0.2
+Columns used: ['G1' 'G2' 'studytime' 'failures' 'Medu' 'Fedu' 'health' 'traveltime'
+ 'Dalc']
+		Shapes
+X_train: (519, 9)
+Y_train: (519,)
+X_test: (130, 9)
+Y_test: (130,)
+
+Beginning of Gradient Descent Algorithm.
+alpha(learning rate): 0.003   MaxIter: 100000  Cut off amount: 1e-06
+Very low change in Coeff thus stopping early.
+Final Coeff: [ 0.09981313  0.15788584  0.86857898  0.06954877 -0.13138314 -0.03829256
+  0.03583156 -0.04308141  0.08425496 -0.05475862]
+Final Cost(MSE) Value: 1.5855556415776908
+Test Data MSE: 1.438844976286433
+CONCLUSION: Added Dalc data, gave better results
+
+
+***Start Program: 2021-09-12 18:57:29.553323***
+train size: 0.8	test_size: 0.2
+Columns used: ['G1' 'G2' 'studytime' 'failures' 'Medu' 'Fedu' 'health' 'traveltime'
+ 'Dalc' 'Walc']
+		Shapes
+X_train: (519, 10)
+Y_train: (519,)
+X_test: (130, 10)
+Y_test: (130,)
+
+Beginning of Gradient Descent Algorithm.
+alpha(learning rate): 0.003   MaxIter: 100000  Cut off amount: 1e-06
+Very low change in Coeff thus stopping early.
+Final Coeff: [ 0.10246848  0.15784994  0.86856743  0.06922599 -0.1314037  -0.038452
+  0.03604008 -0.04297092  0.0843098  -0.05298693 -0.00209201]
+Final Cost(MSE) Value: 1.5855507705335077
+Test Data MSE: 1.438531989152089
+CONCLUSION: Added the Walc data. Very sligthly better.
+
+
+***Start Program: 2021-09-12 19:04:35.798397***
+train size: 0.8	test_size: 0.2
+Columns used: ['G1' 'G2' 'studytime' 'failures' 'Medu' 'Fedu' 'health' 'traveltime'
+ 'Dalc' 'Walc' 'freetime']
+		Shapes
+X_train: (519, 11)
+Y_train: (519,)
+X_test: (130, 11)
+Y_test: (130,)
+
+Beginning of Gradient Descent Algorithm.
+alpha(learning rate): 0.003   MaxIter: 100000  Cut off amount: 1e-06
+Very low change in Coeff thus stopping early.
+Final Coeff: [ 0.37275439  0.15995577  0.86484807  0.06841415 -0.12250107 -0.03982938
+  0.04113504 -0.04002888  0.08749151 -0.04514331  0.0026307  -0.09335468]
+Final Cost(MSE) Value: 1.5761320160375638
+Test Data MSE: 1.4698203214883785
+CONCLUSION: Added freetime. Made results for the trained MSE better but the test results worse. I will remove freetime.
+
+
+***Start Program: 2021-09-12 19:09:23.715737***
+train size: 0.8	test_size: 0.2
+Columns used: ['G1' 'G2']
+		Shapes
+X_train: (519, 2)
+Y_train: (519,)
+X_test: (130, 2)
+Y_test: (130,)
+
+Beginning of Gradient Descent Algorithm.
+alpha(learning rate): 0.003   MaxIter: 100000  Cut off amount: 1e-06
+Very low change in Coeff thus stopping early.
+Final Coeff: [-0.10585279  0.16626536  0.87708117]
+Final Cost(MSE) Value: 1.6059034977282989
+Test Data MSE: 1.5181944971814632
+CONCLUSION: Removed all the G1 and G2 columns. Worse Results.
+
+
+***Start Program: 2021-09-12 19:14:30.178690***
+train size: 0.8	test_size: 0.2
+Columns used: ['G1' 'G2' 'studytime' 'failures' 'Medu' 'Fedu' 'health' 'traveltime'
+ 'Dalc' 'Walc']
+		Shapes
+X_train: (519, 10)
+Y_train: (519,)
+X_test: (130, 10)
+Y_test: (130,)
+
+Beginning of Gradient Descent Algorithm.
+alpha(learning rate): 0.003   MaxIter: 100000  Cut off amount: 1e-06
+Very low change in Coeff thus stopping early.
+Final Coeff: [ 0.12035433  0.15743832  0.86829671  0.06831561 -0.13289858 -0.03886434
+  0.03580868 -0.04355829  0.08280382 -0.05345468 -0.00255399]
+Final Cost(MSE) Value: 1.5855507705505403
+Test Data MSE: 1.43802051679964
+CONCLUSION: Deleted freetime, and set random starting points. Little to no difference, but takes significantly longer
+
+
+***Start Program: 2021-09-12 19:25:00.680348***
+train size: 0.8	test_size: 0.2
+Columns used: ['G1' 'G2' 'studytime' 'failures' 'Medu' 'Fedu' 'health' 'traveltime'
+ 'Dalc' 'Walc']
+		Shapes
+X_train: (519, 10)
+Y_train: (519,)
+X_test: (130, 10)
+Y_test: (130,)
+
+Beginning of Gradient Descent Algorithm.
+alpha(learning rate): 0.003   MaxIter: 100000  Cut off amount: 1e-06
+Very low change in Coeff thus stopping early.
+Final Coeff: [ 0.10246848  0.15784994  0.86856743  0.06922599 -0.1314037  -0.038452
+  0.03604008 -0.04297092  0.0843098  -0.05298693 -0.00209201]
+Final Cost(MSE) Value: 1.5855507705335077
+Test Data MSE: 1.438531989152089
+CONCLUSION: Starting point is 0 for all thetas. It has relatively similar theta result as with random points.
+
+
+***Start Program: 2021-09-12 20:36:44.009241***
+train size: 0.8	test_size: 0.2
+Columns used: ['G1' 'G2' 'studytime' 'failures' 'Medu' 'Fedu' 'health' 'traveltime'
+ 'Dalc' 'Walc']
+		Shapes
+X_train: (519, 10)
+Y_train: (519,)
+X_test: (130, 10)
+Y_test: (130,)
+
+Beginning of Gradient Descent Algorithm.
+alpha(learning rate): 0.0005   MaxIter: 100000  Cut off amount: 1e-06
+Very low change in Coeff thus stopping early.
+Final Coeff: [ 0.05774877  0.15887922  0.86924455  0.07150197 -0.12765994 -0.03742154
+  0.03661895 -0.0415026   0.08807335 -0.05181788 -0.00093694]
+Final Cost(MSE) Value: 1.5856034754247128
+Test Data MSE: 1.439870123782304
+CONCLUSION: Smaller Learn rate. Slightly better Results
+
+
+***Start Program: 2021-09-12 22:52:59.039893***
+train size: 0.8	test_size: 0.2
+Columns used: ['G1' 'G2' 'studytime' 'failures' 'Medu' 'Fedu' 'health' 'traveltime'
+ 'Dalc' 'Walc']
+		Shapes
+X_train: (519, 10)
+Y_train: (519,)
+X_test: (130, 10)
+Y_test: (130,)
+
+Beginning of Gradient Descent Algorithm.
+alpha(learning rate): 0.0001   MaxIter: 100000  Cut off amount: 1e-06
+Very low change in Coeff thus stopping early.
+Final Coeff: [ 0.02660664  0.16019132  0.87002321  0.07174533 -0.11176168 -0.03544233
+  0.03501956 -0.04086468  0.0861695  -0.04897626 -0.00184712]
+Final Cost(MSE) Value: 1.5857549444795649
+Test Data MSE: 1.4437149883162785
+CONCLUSION: lower step poorer results.
+
+
+***Start Program: 2021-09-12 21:10:23.774171***
+train size: 0.8	test_size: 0.2
+Columns used: ['G1' 'G2' 'studytime' 'failures' 'Medu' 'Fedu' 'health' 'traveltime'
+ 'Dalc' 'Walc']
+		Shapes
+X_train: (519, 10)
+Y_train: (519,)
+X_test: (130, 10)
+Y_test: (130,)
+
+Beginning of Gradient Descent Algorithm.
+alpha(learning rate): 0.0005   MaxIter: 100000  Cut off amount: 1e-06
+Very low change in Coeff thus stopping early.
+Final Coeff: [ 0.05774877  0.15887922  0.86924455  0.07150197 -0.12765994 -0.03742154
+  0.03661895 -0.0415026   0.08807335 -0.05181788 -0.00093694]
+Final Cost(MSE) Value: 1.5856034754247128
+Test Data MSE: 1.439870123782304
+CONCLUSION: This is the best Results I can arrive at.
+
+
+***Start Program: 2021-09-12 22:56:49.109476***
+train size: 0.8	test_size: 0.2
+Columns used: ['G1' 'G2' 'studytime' 'failures' 'Medu' 'Fedu' 'health' 'traveltime'
+ 'Dalc' 'Walc']
+		Shapes
+X_train: (519, 10)
+Y_train: (519,)
+X_test: (130, 10)
+Y_test: (130,)
+
+
+***Start Program: 2021-09-12 22:59:40.052300***
+train size: 0.8	test_size: 0.2
+Columns used: ['G1' 'G2' 'studytime' 'failures' 'Medu' 'Fedu' 'health' 'traveltime'
+ 'Dalc' 'Walc']
+		Shapes
+X_train: (519, 10)
+Y_train: (519,)
+X_test: (130, 10)
+Y_test: (130,)
+
+Beginning of Gradient Descent Algorithm.
+alpha(learning rate): 0.001   MaxIter: 100000  Cut off amount: 1e-06
+Very low change in Coeff thus stopping early.
+Final Coeff: [ 0.08458118  0.15826159  0.86883817  0.07013645 -0.1299087  -0.03803962
+  0.0362715  -0.04238351  0.08581591 -0.05251914 -0.00162999]
+Final Cost(MSE) Value: 1.5855628163237276
+Test Data MSE: 1.4390568007618278
+CONCLUSION: Changed to .001 Learning rate. Better results
+
+
+***Start Program: 2021-09-12 23:02:16.594298***
+train size: 0.8	test_size: 0.2
+Columns used: ['G1' 'G2' 'studytime' 'failures' 'Medu' 'Fedu' 'health' 'traveltime'
+ 'Dalc' 'Walc']
+		Shapes
+X_train: (519, 10)
+Y_train: (519,)
+X_test: (130, 10)
+Y_test: (130,)
+
+Beginning of Gradient Descent Algorithm.
+alpha(learning rate): 0.003   MaxIter: 100000  Cut off amount: 1e-06
+Very low change in Coeff thus stopping early.
+Final Coeff: [ 0.10246848  0.15784994  0.86856743  0.06922599 -0.1314037  -0.038452
+  0.03604008 -0.04297092  0.0843098  -0.05298693 -0.00209201]
+Final Cost(MSE) Value: 1.5855507705335077
+Test Data MSE: 1.438531989152089
+CONCLUSION: Change learning rate to .003. Better results.
+
+
+***Start Program: 2021-09-18 13:22:53.599964***
+train size: 0.8	test_size: 0.2
+Columns used: ['G1' 'G2' 'studytime' 'failures' 'Medu' 'Fedu' 'health' 'traveltime'
+ 'Dalc' 'Walc']
+		Shapes
+X_train: (519, 10)
+Y_train: (519,)
+X_test: (130, 10)
+Y_test: (130,)
+
+Beginning of Gradient Descent Algorithm.
+alpha(learning rate): 0.001   MaxIter: 100000  Cut off amount: 1e-06
+Very low change in Coeff thus stopping early.
+Final Coeff: [ 0.08458118  0.15826159  0.86883817  0.07013645 -0.1299087  -0.03803962
+  0.0362715  -0.04238351  0.08581591 -0.05251914 -0.00162999]
+Final Cost(MSE) Value: 1.5855628163237276
+Test Data MSE: 1.4390568007618278
+r2_test = 0.8742785512454514
+r2_train = 0.5878788457819978
+Test RMSE: 1.1996069359426977
+Training RMSE: 1.2591913342791585
+CONCLUSION: Lower the learning rate w/ additional values
+
+
+
+***Start Program: 2021-09-18 13:19:08.634038***
+train size: 0.8	test_size: 0.2
+Columns used: ['G1' 'G2' 'studytime' 'failures' 'Medu' 'Fedu' 'health' 'traveltime'
+ 'Dalc' 'Walc']
+		Shapes
+X_train: (519, 10)
+Y_train: (519,)
+X_test: (130, 10)
+Y_test: (130,)
+
+Beginning of Gradient Descent Algorithm.
+alpha(learning rate): 0.003   MaxIter: 100000  Cut off amount: 1e-06
+Very low change in Coeff thus stopping early.
+Final Coeff: [ 0.10246848  0.15784994  0.86856743  0.06922599 -0.1314037  -0.038452
+  0.03604008 -0.04297092  0.0843098  -0.05298693 -0.00209201]
+Final Cost(MSE) Value: 1.5855507705335077
+Test Data MSE: 1.438531989152089
+r2_test = 0.874324400774021
+r2_train = 0.585988024155459
+Test RMSE: 1.199388172841507
+Training RMSE: 1.2591865511247757
+CONCLUSION: Include the R2 and RMSE Values for the best MSE results
+
+
+Q: Are you satisfied that you have found the best solution? Explain.
+A: Yes, I am satisfied with my answer. I have added several columns to the data set with different combinations to try and optimize the linear model. I have also removed many columns for optimization.
+I even swapped to a dataset with more data to get significant improvement. I tweeked the learning rate a lot with many different types of columns being included. My final result has 10 Columns or in other words 10 dependent variables. I tried with more than 10 and it seems it only harms the performance. If there is anything else I can do to improve this model then it would be so miniscul that it would make barely any difference.
+
+Looking at graphs there is a relatively linear relationship with G1 and G2, while the others tend to be more sporatic, but still reduced the MSE. The confidence bands show a lot of outliers, but there is heavy relation in a linear relationship. Due to the outliers in training it probably caused the rather poorer performance in the R^2 value.
